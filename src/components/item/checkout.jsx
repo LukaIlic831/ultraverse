@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 const Checkout = ({setCheckoutOpen}) => {
 
     const close = () => {
-        setCheckoutOpen(false)
+        setCheckoutOpen(false);
     }
 
     useEffect(() => {
