@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {library} from '@fortawesome/fontawesome-svg-core';
+import { faLinkedin, faFacebook, faTwitter, faPinterest, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import {faWallet, faCloudArrowUp, faTags, faSquare, faCheck, faEllipsis, faHeart, faImage, faMusic, faMagnifyingGlass, faEarthAfrica, faIdCard, faTableCells, faRightLong, faAngleDown, faXmark, faEye, faBars} from '@fortawesome/free-solid-svg-icons';
+
+library.add(faWallet, faCloudArrowUp, faTags, faSquare, faCheck, faEllipsis, faHeart, faImage, faMusic, faMagnifyingGlass, faEarthAfrica, faIdCard, faTableCells, faRightLong, faLinkedin, faFacebook, faTwitter, faPinterest, faBars, faYoutube, faAngleDown, faXmark, faEye);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
